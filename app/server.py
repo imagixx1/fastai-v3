@@ -8,6 +8,8 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+!pip install tensorflow
+import tensorflow
 
 export_file_url = 'https://drive.google.com/uc?export=download&id=1HA_nrBt7lVZeQbUrngp04Ee3PjNnp_Gz'
 export_file_name = 'fashion.pkl'
