@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1HA_nrBt7lVZeQbUrngp04Ee3PjNnp_Gz'
 export_file_name = 'fashion.pkl'
 
-classes = ['pikachu','charmander','bulbasaur','squirtle']
+classes = ['top', 'trouser','pullover','dress','coat','sandal','shirt','sneaker','bag','ankle boot']
 path = Path(__file__).parent
 
 app = Starlette()
